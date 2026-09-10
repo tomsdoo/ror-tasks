@@ -13,7 +13,7 @@ services:
     env_file:
       - .env.web.development
     volumes:
-      - .:/myapp
+      - .:/rails
     ports:
       - "3000:3000"
     depends_on:
