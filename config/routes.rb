@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       get 'hello/index'
       get 'hello', to: 'hello#index'
-      resources :tasks, only: [:index, :create] # GET/POST /api/v1/tasks
+      resources :tasks, only: [:index, :create, :update, :destroy] # GET/POST/PUT/PATCH/DELETE /api/v1/tasks
     end
   end
 end
