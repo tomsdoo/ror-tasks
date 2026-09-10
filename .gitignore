@@ -36,3 +36,5 @@
 
 .env.db.development
 .env.web.development
+
+postgres_data/
