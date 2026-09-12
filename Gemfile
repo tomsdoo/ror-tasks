@@ -65,3 +65,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "rails_admin", "~> 3.1"
+gem "dartsass-sprockets" # RailsAdmin(sprockets)のSCSSアセットコンパイル用。LibSass(sassc)は最新Bootstrapの構文に非対応のためDart Sassを使用
